@@ -175,7 +175,10 @@ export default defineConfig({
           label: "Module 07: Full-Stack Deployment",
           items: [
             { label: "Introduction", slug: "deployment/intro" },
-            { label: "Cloudflare Setup", slug: "deployment/cloudflare-setup" },
+            {
+              label: "Cloudflare Setup",
+              slug: "deployment/cloudflare-setup",
+            },
             {
               label: "Production Database",
               slug: "deployment/production-database",
@@ -187,6 +190,16 @@ export default defineConfig({
               slug: "deployment/capstone-workshop",
             },
             { label: "Exercise", slug: "deployment/exercise" },
+          ],
+        },
+        {
+          label: "Module 08: Flutter Bootcamp (Bonus)",
+          items: [
+            { label: "Introduction", slug: "flutter/intro" },
+            { label: "Installation Setup", slug: "flutter/installation" },
+            { label: "Dart Fundamentals", slug: "flutter/dart-basics" },
+            { label: "Widget Essentials", slug: "flutter/widgets" },
+            { label: "Building Layouts", slug: "flutter/layouts" },
           ],
         },
       ],
